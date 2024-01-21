@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
+import { Box } from '@mui/material';
+import Home from './Components/Home/Home';
 function App() {
   return (
-    <div className='body'>
-    <Navbar />
-    
-    </div>
+    <Box className='body'>
+   <Home /> 
+    </Box>
   );
 }
 
